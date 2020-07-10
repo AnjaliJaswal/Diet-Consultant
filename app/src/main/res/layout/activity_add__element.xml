@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Add_Element">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/sumbmit_bar"
+            android:id="@+id/bar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Name"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="27dp"
+        android:textSize="23dp"/>
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_edittext"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carbohydrates (in grams)"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="27dp"
+        android:textSize="23dp"/>
+        <EditText
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:background="@drawable/rounded_edittext"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fats (in grams)"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="27dp"
+        android:textSize="23dp"/>
+        <EditText
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:background="@drawable/rounded_edittext"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proteins (in grams)"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="27dp"
+        android:textSize="23dp"/>
+        <EditText
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:background="@drawable/rounded_edittext"
+            />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Can be Consumed By:"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="27dp"
+        android:textSize="23dp"/>
+
+    <CheckBox
+        android:id="@+id/ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="20dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="Over Weight"
+        />
+    <CheckBox
+        android:id="@+id/ch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="Healthy"
+        />
+
+        <CheckBox
+            android:id="@+id/ch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="13dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Under Weight" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Can be Consumed For :"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="27dp"
+            android:textSize="23dp"/>
+
+        <CheckBox
+            android:id="@+id/ch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="BreakFast"
+            />
+
+        <CheckBox
+            android:id="@+id/ch5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="10dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Lunch" />
+
+        <CheckBox
+            android:id="@+id/ch6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="13dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Evening Snacks"
+            />
+        <CheckBox
+            android:id="@+id/ch7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="13dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Dinner"
+            />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Submit"
+            android:textSize="20dp"
+            android:background="@color/colorAccent"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
